@@ -1,0 +1,248 @@
+.root,.scroll {
+    font-family: 'RocketFont', Arial;
+}
+
+.button,.toolbar-button {
+    background-color: #ffffff;
+    color: #0064a1;
+    border: 0.0625rem dotted #999999;
+    font-family: 'RocketFont', Arial;
+    font-size: 0.985rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    height: auto;
+}
+
+#Main_Rocket_btn > div {
+-webkit-flex-direction: column;
+flex-direction: column;
+width: 100%
+}
+
+#Main_News_btn > div {
+-webkit-flex-direction: column;
+flex-direction: column;
+width: 100%
+}
+
+#Main_Solutions_btn > div {
+-webkit-flex-direction: column;
+flex-direction: column;
+width: 100%
+}
+
+#Main_Support_btn > div {
+-webkit-flex-direction: column;
+flex-direction: column;
+width: 100%
+}
+
+#Main_Offices_btn > div {
+-webkit-flex-direction: column;
+flex-direction: column;
+width: 100%
+}
+
+#Main_Settings_btn > div {
+-webkit-flex-direction: column;
+flex-direction: column;
+width: 100%
+}
+
+.mobile input,.mobile select,.mobile .text-area {
+    font-family: 'RocketFont', Arial;
+}
+
+.text-field,.password-field,.number-field {
+    -moz-border-radius: 0.125rem;
+    -webkit-border-radius: 0.125rem;
+    border-radius: 0.125rem;
+    border: 0.0625rem solid #999999;
+    color: #999999;
+    outline: none;
+    padding-left: 0.625rem;
+}
+
+.form-row label {
+    color: #0064a1;
+    font-family: 'RocketFont', Arial;
+}
+
+.text-area {
+    border: 0.0625rem solid #d5d5d5;
+    color: #999999;
+}
+
+.form.single-placeholder {
+    border: none;
+}
+
+.form.single .form-row-content,.form.single .form-element-error {
+    border: none;
+}
+
+.form-row-group-first {
+    border: none;
+}
+
+.form-row-group-last {
+    border: none;
+}
+
+.list img[src] {
+    margin: 8px;
+}
+
+.list-item,.group-item {
+    border: 0.0625rem dotted #999999;
+}
+
+.list-item.arrow:after,.arrow.group-item:after {
+    border-top: 0.125rem dotted #f8f8f8;
+    border-right: 0.125rem dotted #f8f8f8;
+}
+
+.list-item:first-child,.group-item:first-child,.list-item:first-child a,.group-item:first-child a
+{
+    border-top: 0.0625rem dotted #999999
+}
+
+.list-item-title {
+    color: #0064a1;
+    font-style: RocketFont, Arial;
+}
+
+.list-item-subtitle {
+    color: #333333;
+    font-style: RocketFont, Arial;
+}
+
+.navigationbar {
+    background-color: #050D9E;
+    color: #ffffff;
+    height: 3.1875rem;
+}
+
+.runtime-ios .navigationbar {
+    height: 4.2rem;
+}
+
+h1 {
+    font-family: 'RocketFont', Arial;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.title {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.navigationbar>.label {
+    height: 1.5rem;
+    line-height: 1.5rem
+}
+
+.navigationbar-button,.navigationbar-backbutton {
+    background-color: #050D9E;
+    color: #ffffff;
+    height: 2.885rem;
+}
+
+.navigationbar-button {
+	padding-bottom: 5px;
+}
+
+.left-container,.right-container {
+    vertical-align: middle;
+}
+
+.navigationbar-button.active,.navigationbar-backbutton.active {
+    background-color: #050D9E;
+    color: #ffffff;
+}
+
+.left-container {
+    height: 4.1875rem;
+    vertical-align: middle;
+}
+
+.right-container {
+    height: 4.1875rem;
+    vertical-align: middle;
+}
+
+.rmc-picker {
+    border: 0.0625rem solid #999999;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+    color: #999999;
+    background-color: #ffffff;
+    background-image: none;
+    font-family: 'RocketFont', Arial;
+    padding-left: 0.885rem;
+}
+
+.rmc-picker .title {
+	line-height: 20px;
+	font-size: 0.9375rem;
+}
+
+.form {
+    border: none;
+}
+
+.form .mobileclient-form-row-content {
+    border: none;
+}
+
+.navigationbar .navigationbar-backbutton.navigationbar-backbutton
+{
+    background-image: url("../Resources/back.png");
+    background-position: center;
+}
+
+.rocket-title {
+    color: #0064a1;
+    font-family: 'RocketFont', Arial;
+    font-size: 1.125rem;
+    text-align:center;
+    display: block;
+}
+
+.rocket-subtitle {
+    color: #333333;
+    font-family: 'RocketFont', Arial;
+    font-size: 0.985rem;
+    font-style: italic;	
+    text-align:center;
+    display: block;
+}
+
+.rocket-body {
+    color: #333333;
+    font-family: 'RocketFont', Arial;
+    font-size: 0.985rem;
+    text-align:justify;
+    display: block;
+}
+
+.rocket-main-page-icon-text {
+    color: #000000;
+    font-family: 'RocketFont', Arial;
+    font-size: 16pt;
+    display: block;
+}
+
+.rocket-drawer-icon-text {
+    color: #000000;
+    font-family: 'RocketFont', Arial;
+    font-size: 14.5 pt;
+    display: block;
+}
+
+.pow {
+    font-size: 0.685rem;
+    text-align: center;
+}

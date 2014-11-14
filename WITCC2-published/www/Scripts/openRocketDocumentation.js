@@ -1,0 +1,1 @@
+window.open("http://docs.rocketsoftware.com/", "_system");
